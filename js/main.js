@@ -71,6 +71,7 @@ let arrayRandomColor = array.map(function (element) {
 		arrayOnClick = arrayOnClick.join('')
 		input.value = arrayOnClick
 		arrayOnClick = arrayOnClick.split('')
+		element.style.display = 'none'
 	}
 })
 

@@ -35,6 +35,8 @@ body {
           justify-content: center;
   padding: 30px;
   border-radius: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .text {

@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 .blocks {
     display: flex;
@@ -16,6 +17,7 @@ body {
     justify-content: center;
     padding: 30px;
     border-radius: 50px;
+    transition: 1s;
 }
 .text {
     color: white;
