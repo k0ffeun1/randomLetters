@@ -1,0 +1,99 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 50px;
+}
+.text {
+    color: white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.time {
+    color: white;
+    margin-bottom: 50px;
+    .counter {
+        font-size: 20px;
+        color: white;
+        animation: animateTime linear 2s infinite;
+    }
+    animation: animateTime linear 2s infinite;
+}
+
+@keyframes animateTime {
+    0% {
+        color: white;
+    }
+    50% {
+        color: rgb(143, 142, 142);
+    }
+    100% {
+        color: white;
+    }
+}
+
+.text2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.input {
+    display: block;
+    outline: none;
+    width: 20vw;
+    height: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(155, 2, 28);
+}
+.input:disabled {
+    background-color: white;
+}
+.block {
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.row {
+    color: white;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    animation: animate 2s linear infinite;
+    transition: 1s;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.row:not(:last-child) {
+    margin-right: 50px;
+}
+// @keyframes animate {
+//     0% {
+//         transform: rotate(0deg);
+//     }
+//     100% {
+//         transform: rotate(360deg);
+//     }
+// }
